@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GTFScan_Demo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/GTFScan_Demo.res" /d "NDEBUG" /d "_AFXDLL" "E:\GTF_V6\GTFScan_Demo\GTFScan_Demo.rc"" 
+Creating temporary file "D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPB235.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GTFScan_Demo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\GTF_V6\GTFScan_Demo\GTFScan_Demo.cpp"
+"E:\GTF_V6\GTFScan_Demo\GTFScan_DemoDlg.cpp"
+]
+Creating command line "cl.exe @D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPB235.tmp" 
+Creating temporary file "D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPB246.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GTFScan_Demo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\GTF_V6\GTFScan_Demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPB246.tmp" 
+Creating temporary file "D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPB247.tmp" with contents
+[
+..\_RunTime\Release\GTF_PASSPORT_COMM.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/GTFScan_Demo.pdb" /machine:I386 /out:"..\_RunTime\Release\GTFScan_Demo.exe" 
+.\Release\GTFScan_Demo.obj
+.\Release\GTFScan_DemoDlg.obj
+.\Release\StdAfx.obj
+.\Release\GTFScan_Demo.res
+]
+Creating command line "link.exe @D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPB247.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GTFScan_Demo.cpp
+GTFScan_DemoDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GTFScan_Demo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

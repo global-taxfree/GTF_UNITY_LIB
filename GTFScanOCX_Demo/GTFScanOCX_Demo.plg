@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GTFScanOCX_Demo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/GTFScanOCX_Demo.res" /d "NDEBUG" /d "_AFXDLL" "E:\GTF_V6\GTFScanOCX_Demo\GTFScanOCX_Demo.rc"" 
+Creating temporary file "D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPA333.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GTFScanOCX_Demo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\GTF_V6\GTFScanOCX_Demo\GTFScanOCX_Demo.cpp"
+"E:\GTF_V6\GTFScanOCX_Demo\GTFScanOCX_DemoDlg.cpp"
+]
+Creating command line "cl.exe @D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPA333.tmp" 
+Creating temporary file "D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPA334.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GTFScanOCX_Demo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\GTF_V6\GTFScanOCX_Demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\SEUNGJ~1\AppData\Local\Temp\RSPA334.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /pdb:none /machine:I386 /out:"..\_RunTime\Release\GTFScanOCX_Demo.exe"  .\Release\GTFScanOCX_Demo.obj .\Release\GTFScanOCX_DemoDlg.obj .\Release\StdAfx.obj .\Release\GTFScanOCX_Demo.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GTFScanOCX_Demo.cpp
+GTFScanOCX_DemoDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GTFScanOCX_Demo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
